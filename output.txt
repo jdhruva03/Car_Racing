@@ -1,0 +1,1231 @@
+DQN(
+  (layer1): Sequential(
+    (0): Conv2d(1, 32, kernel_size=(8, 8), stride=(1, 1), padding=(1, 1))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (3): Dropout(p=0.19999999999999996, inplace=False)
+  )
+  (layer2): Sequential(
+    (0): Conv2d(32, 64, kernel_size=(5, 5), stride=(1, 1), padding=(1, 1))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (3): Dropout(p=0.19999999999999996, inplace=False)
+  )
+  (layer3): Sequential(
+    (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=1, dilation=1, ceil_mode=False)
+    (3): Dropout(p=0.19999999999999996, inplace=False)
+  )
+  (fc1): Linear(in_features=7744, out_features=64, bias=True)
+  (layer4): Sequential(
+    (0): Linear(in_features=7744, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.19999999999999996, inplace=False)
+  )
+  (fc2): Linear(in_features=64, out_features=5, bias=True)
+)
+DQN(
+  (layer1): Sequential(
+    (0): Conv2d(1, 32, kernel_size=(8, 8), stride=(1, 1), padding=(1, 1))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (3): Dropout(p=0.19999999999999996, inplace=False)
+  )
+  (layer2): Sequential(
+    (0): Conv2d(32, 64, kernel_size=(5, 5), stride=(1, 1), padding=(1, 1))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (3): Dropout(p=0.19999999999999996, inplace=False)
+  )
+  (layer3): Sequential(
+    (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=1, dilation=1, ceil_mode=False)
+    (3): Dropout(p=0.19999999999999996, inplace=False)
+  )
+  (fc1): Linear(in_features=7744, out_features=64, bias=True)
+  (layer4): Sequential(
+    (0): Linear(in_features=7744, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.19999999999999996, inplace=False)
+  )
+  (fc2): Linear(in_features=64, out_features=5, bias=True)
+)
+EPISODE 0
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -55.64516129032336 after n steps = 0 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 1
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.65573770491897 after n steps = 1 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 2
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.96296296296383 after n steps = 2 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 3
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -65.18987341772235 after n steps = 3 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 4
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -58.47750865051987 after n steps = 4 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 5
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.06896551724225 after n steps = 5 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 6
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -65.1898734177222 after n steps = 6 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 7
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -61.29032258064594 after n steps = 7 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 8
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -55.88235294117713 after n steps = 8 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 9
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.71428571428655 after n steps = 9 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 10
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -58.333333333334174 after n steps = 10 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 11
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.03125000000077 after n steps = 11 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 12
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -53.66795366795445 after n steps = 12 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 13
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -61.65191740413068 after n steps = 13 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 14
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.3960396039613 after n steps = 14 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 15
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -53.237410071943195 after n steps = 15 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 16
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.96296296296386 after n steps = 16 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 17
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -50.35460992907888 after n steps = 17 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 18
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -61.130742049470705 after n steps = 18 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 19
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -55.882352941177295 after n steps = 19 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 20
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -64.80938416422357 after n steps = 20 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 21
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -64.0287769784182 after n steps = 21 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 22
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.3287671232885 after n steps = 22 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 23
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -67.21311475409904 after n steps = 23 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 24
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.132890365449455 after n steps = 24 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 25
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -49.019607843137955 after n steps = 25 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 26
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -64.1693811074927 after n steps = 26 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 27
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.068965517242255 after n steps = 27 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 28
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.457337883959845 after n steps = 28 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 29
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.89473684210602 after n steps = 29 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 30
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -63.087248322148554 after n steps = 30 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 31
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.83783783783872 after n steps = 31 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 32
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -50.75757575757659 after n steps = 32 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 33
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.5000000000009 after n steps = 33 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 34
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.264900662252586 after n steps = 34 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 35
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.38244514106669 after n steps = 35 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 36
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.692307692308475 after n steps = 36 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 37
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -56.52173913043563 after n steps = 37 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 38
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -56.83453237410158 after n steps = 38 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 39
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -58.47750865051984 after n steps = 39 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 40
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.45733788395997 after n steps = 40 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 41
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -51.72413793103525 after n steps = 41 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 42
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -59.706959706960525 after n steps = 42 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 43
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -49.09090909090989 after n steps = 43 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 44
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -59.32203389830597 after n steps = 44 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 45
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -55.390334572491554 after n steps = 45 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 46
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -51.492537313433445 after n steps = 46 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 47
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -55.78231292517093 after n steps = 47 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 48
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -65.87030716723629 after n steps = 48 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 49
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -56.228956228957 after n steps = 49 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 50
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -55.390334572491525 after n steps = 50 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 51
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -66.21621621621694 after n steps = 51 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 52
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -56.20437956204467 after n steps = 52 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 53
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.65472312703663 after n steps = 53 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 54
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.19931271477751 after n steps = 54 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 55
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -56.66666666666748 after n steps = 55 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 56
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -64.4012944983828 after n steps = 56 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 57
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.19931271477746 after n steps = 57 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 58
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -64.28571428571519 after n steps = 58 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 59
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -49.579831932773864 after n steps = 59 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 60
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.79220779220863 after n steps = 60 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 61
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -55.390334572491525 after n steps = 61 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 62
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.26490066225263 after n steps = 62 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 63
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -58.62068965517324 after n steps = 63 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 64
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -58.466453674122214 after n steps = 64 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 65
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.60606060606153 after n steps = 65 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 66
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.14492753623274 after n steps = 66 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 67
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -53.4050179211478 after n steps = 67 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 68
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -61.53846153846244 after n steps = 68 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 69
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -63.369963369964225 after n steps = 69 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 70
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -65.51724137931095 after n steps = 70 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 71
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -49.612403100775964 after n steps = 71 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 72
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -66.99669966996754 after n steps = 72 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 73
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.96296296296374 after n steps = 73 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 74
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.52895752895838 after n steps = 74 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 75
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -51.890034364261986 after n steps = 75 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 76
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -67.94871794871858 after n steps = 76 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 77
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.52631578947455 after n steps = 77 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 78
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -61.53846153846237 after n steps = 78 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 79
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -66.46341463414691 after n steps = 79 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 80
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.84337349397678 after n steps = 80 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 81
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.74647887324027 after n steps = 81 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 82
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.23684210526399 after n steps = 82 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 83
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.14285714285793 after n steps = 83 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 84
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.26415094339703 after n steps = 84 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 85
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -59.706959706960504 after n steps = 85 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 86
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.28880866426074 after n steps = 86 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 87
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -55.017301038062975 after n steps = 87 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 88
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.00000000000089 after n steps = 88 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 89
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.14285714285795 after n steps = 89 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 90
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -56.81063122923675 after n steps = 90 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 91
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -51.724137931035216 after n steps = 91 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 92
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.29537366548122 after n steps = 92 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 93
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -63.69636963696453 after n steps = 93 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 94
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.89473684210604 after n steps = 94 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 95
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.23684210526399 after n steps = 95 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 96
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -56.52173913043571 after n steps = 96 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 97
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -56.67870036101166 after n steps = 97 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 98
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -59.59595959596038 after n steps = 98 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 99
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -65.27777777777862 after n steps = 99 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 100
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.99290780141931 after n steps = 100 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 101
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -68.02325581395414 after n steps = 101 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 102
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -65.98639455782387 after n steps = 102 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 103
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -64.07185628742593 after n steps = 103 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 104
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -59.50155763239955 after n steps = 104 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 105
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -61.53846153846239 after n steps = 105 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 106
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.6557377049189 after n steps = 106 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 107
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -61.67247386759676 after n steps = 107 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 108
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -63.414634146342394 after n steps = 108 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 109
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -53.795379537954595 after n steps = 109 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 110
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -63.087248322148454 after n steps = 110 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 111
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -58.33333333333422 after n steps = 111 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 112
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -64.51612903225895 after n steps = 112 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 113
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -50.65789473684291 after n steps = 113 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 114
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -49.152542372882245 after n steps = 114 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 115
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -52.94117647058897 after n steps = 115 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 116
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -64.63022508038671 after n steps = 116 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 117
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -67.53246753246815 after n steps = 117 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 118
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -56.98924731182881 after n steps = 118 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 119
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -63.96396396396487 after n steps = 119 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 120
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -55.93220338983135 after n steps = 120 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 121
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -54.372623574145315 after n steps = 121 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 122
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -56.22895622895706 after n steps = 122 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 123
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -67.45562130177584 after n steps = 123 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 124
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.431654676259875 after n steps = 124 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 125
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -48.27586206896621 after n steps = 125 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 126
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -54.24836601307263 after n steps = 126 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 127
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.40601503759491 after n steps = 127 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 128
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.89473684210603 after n steps = 128 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 129
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -58.188153310105356 after n steps = 129 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 130
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -53.405017921147824 after n steps = 130 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 131
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -58.99053627760337 after n steps = 131 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 132
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -61.40350877193065 after n steps = 132 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 133
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -56.834532374101585 after n steps = 133 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 134
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -65.63573883161587 after n steps = 134 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 135
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -51.417004048583756 after n steps = 135 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 136
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -52.0295202952038 after n steps = 136 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 137
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -55.932203389831315 after n steps = 137 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 138
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -64.40129449838277 after n steps = 138 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 139
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -59.45945945946035 after n steps = 139 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 140
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -59.24764890282216 after n steps = 140 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 141
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.74647887324029 after n steps = 141 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 142
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.57347670250985 after n steps = 142 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 143
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -63.06818181818273 after n steps = 143 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 144
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -68.023255813954 after n steps = 144 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 145
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -55.3903345724915 after n steps = 145 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 146
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -58.95522388059787 after n steps = 146 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 147
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.78431372549108 after n steps = 147 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 148
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.83783783783873 after n steps = 148 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 149
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -58.04195804195892 after n steps = 149 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 150
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.0689655172422 after n steps = 150 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 151
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -48.3394833948347 after n steps = 151 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 152
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -63.57615894039826 after n steps = 152 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 153
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.59717314487721 after n steps = 153 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 154
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -53.33333333333406 after n steps = 154 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 155
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -56.98924731182881 after n steps = 155 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 156
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -64.74358974359056 after n steps = 156 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 157
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -51.67286245353235 after n steps = 157 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 158
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -55.326460481100526 after n steps = 158 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 159
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -56.52173913043553 after n steps = 159 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 160
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.69230769230855 after n steps = 160 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 161
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -55.39033457249145 after n steps = 161 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 162
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -58.4775086505199 after n steps = 162 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 163
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -59.459459459460355 after n steps = 163 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 164
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -49.275362318841346 after n steps = 164 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 165
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.23684210526392 after n steps = 165 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 166
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -61.41479099678547 after n steps = 166 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 167
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -58.64661654135421 after n steps = 167 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 168
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -56.98924731182885 after n steps = 168 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 169
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.00000000000088 after n steps = 169 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 170
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.382445141066704 after n steps = 170 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 171
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.13289036544937 after n steps = 171 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 172
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -58.904109589041965 after n steps = 172 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 173
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -64.28571428571513 after n steps = 173 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 174
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.26490066225261 after n steps = 174 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 175
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -59.70695970696055 after n steps = 175 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 176
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -61.661341853036056 after n steps = 176 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 177
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -58.95522388059784 after n steps = 177 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 178
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -54.86111111111189 after n steps = 178 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 179
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -59.25925925926012 after n steps = 179 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 180
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -49.416342412452074 after n steps = 180 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 181
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -65.7320872274151 after n steps = 181 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 182
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.13289036544944 after n steps = 182 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 183
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -56.98924731182877 after n steps = 183 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 184
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -56.22895622895705 after n steps = 184 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 185
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -61.130742049470804 after n steps = 185 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 186
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -63.455149501662014 after n steps = 186 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 187
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -58.490566037736755 after n steps = 187 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 188
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.38244514106674 after n steps = 188 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 189
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.5734767025098 after n steps = 189 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 190
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -64.63022508038671 after n steps = 190 with final reward = -0.09999999999999432
+Copying main network weights to the target network weights
+EPISODE 191
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -54.54545454545538 after n steps = 191 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 192
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -55.27156549520856 after n steps = 192 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 193
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -57.37704918032873 after n steps = 193 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 194
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -60.606060606061504 after n steps = 194 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 195
+Step Count = 500
+Step Count = 1000
+Episode done omg
+Total training rewards: -62.1451104100955 after n steps = 195 with final reward = -0.10000000000000142
+Copying main network weights to the target network weights
+EPISODE 196
